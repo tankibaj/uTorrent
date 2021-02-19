@@ -24,12 +24,12 @@ docker build -t utorrent:latest .
 #### Run
 
 ```bash
-docker run -d										\
-    -p 8080:8080                      				\
-    -p 6881:6881                      				\
-    -p 6881:6881/udp                  				\
-    -v $(pwd)/downloads:/torrent/downloads        	\
-    -v $(pwd)/torrentfiles:/torrent/torrentfiles    \
+docker run -d \
+    -p 8080:8080 \
+    -p 6881:6881 \
+    -p 6881:6881/udp \
+    -v $(pwd)/downloads:/torrent/downloads \
+    -v $(pwd)/torrentfiles:/torrent/torrentfiles \
     utorrent:latest
 ```
 
