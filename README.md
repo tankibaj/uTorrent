@@ -37,7 +37,7 @@ docker run -d \
 
 #### Run - Docker Compose
 
-You can also build and run container by using [Docker Compose](https://www.docker.com/docker-compose). In that case skip previous build and run steps.
+You can also build and run container by using [Docker Compose](https://docs.docker.com/compose/). In that case skip previous build and run steps.
 
 ```bash
 docker-compose up -d
