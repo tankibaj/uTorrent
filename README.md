@@ -1,4 +1,4 @@
-uTorrent is the world most popular BitTorrent client. It’s available to the Ubuntu server with webUI. I have containerized the uTorrent Server webUI using docker.
+uTorrent is the world most popular BitTorrent client. It’s available to the Ubuntu server with webUI. I have containerized the uTorrent webUI client using docker.
 
 
 If yout want to setup uTorrent server Web UI directly on your Ubuntu VPS server please follow my another Github repository: [utorrent-server](https://github.com/tankibaj/utorrent-server)
