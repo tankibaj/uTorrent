@@ -5,7 +5,7 @@ If yout want to setup uTorrent server Web UI directly on your Ubuntu VPS server 
 
 
 
-#### Prerequisites
+### Prerequisites
 
 - [Docker Engine](https://docs.docker.com/engine/install/)
 - [Manage Docker as a non-root user for Linux](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
@@ -13,7 +13,7 @@ If yout want to setup uTorrent server Web UI directly on your Ubuntu VPS server 
 
 
 
-#### Build
+### Build
 
 ```bash
 docker build -t utorrent:latest .
@@ -21,7 +21,7 @@ docker build -t utorrent:latest .
 
 
 
-#### Run
+### Run
 
 ```bash
 docker run -d \
@@ -35,7 +35,7 @@ docker run -d \
 
 
 
-#### Run - Docker Compose
+### Run - Docker Compose
 
 You can also build and run container by using [Docker Compose](https://docs.docker.com/compose/). In that case skip previous build and run steps.
 
@@ -45,7 +45,7 @@ docker-compose up -d
 
 
 
-#### uTorrent WebUI login
+### uTorrent WebUI login
 
 `URL`: your_server_ip:8080
 
